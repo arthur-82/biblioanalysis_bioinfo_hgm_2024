@@ -1,0 +1,40 @@
+Article title: Bibliometric analysis of gut microbiota in bioinformatic studies from 2018 to 2023
+Journal: Cell
+Authors: Arthur L. da Silva, Anna Lima, João da Costa-Neto, Lara Chrisostomo, Marcio F. Falcão and Isaac Cansanção
+Corresponding author affiliation: Federal University of São Francisco Valley (UNIVASF)
+Corresponding author e-mail: arthur.limas@univasf.edu.br
+
+###################################################################################################################################################################################
+
+INSTRUCTIONS TO BIBLIOMETRIX/BIBLIOSHINY ANALYSIS
+
+Step 1. Download the following archives:
+1. script_bibliometrix_bioinfo.R
+2. bibliometrix_data_bioinfo_786.rds
+
+Step 2. Open "script_bibliometrix_bioinfo.R" in R software or RStudio IDE and run the lines 17 until 24.
+# install.packages("bibliometrix")
+# install.packages("dplyr")
+# install.packages("tidyverse")
+# install.packages("stringr")
+# install.packages("tidygraph")
+# install.packages("ggraph")
+# install.packages("sparkline")
+# install.packages("janitor")
+
+Step 3 - Run the lines 27 until 34. It will install some necessary packages to run the analyis.
+# library(bibliometrix)
+# library(dplyr)
+# library(tidyverse)
+# library(stringr)
+# library(tidygraph)
+# library(ggraph)
+# library(sparkline)
+# library(janitor)
+
+Step 4. Run the line 41
+# biblioshiny ()
+
+Step 4. On browser, click on the field LOAD DATA. Then, upload the archive "bibliometrix_data_bioinfo_786.rds" and click START.
+
+All informations and data presented in the article were extracted from this dataset.
