@@ -1,5 +1,4 @@
-Article title: Bibliometric analysis of gut microbiota in bioinformatic studies from 2018 to 2023
-Journal: Cell
+Article title: The impact of bioinformatics studies involving the intestinal microbiota: a biblomertric analysis
 Authors: Arthur L. da Silva, Anna Lima, João da Costa-Neto, Lara Chrisostomo, Marcio F. Falcão and Isaac Cansanção
 Corresponding author affiliation: Federal University of São Francisco Valley (UNIVASF)
 Corresponding author e-mail: arthur.limas@univasf.edu.br
