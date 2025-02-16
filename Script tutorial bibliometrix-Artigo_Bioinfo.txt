@@ -1,0 +1,43 @@
+# Script bibliometrix Artigo Bioinformatics
+# 06/10/2023
+
+################################################################################################################################
+# COPIE ESTE SCRIPT E COLE NO RSTUDIO.
+# PARA RODAR OS COMANDOS BASTA CLICAR NA LINHA QUE DESEJA RODAR E CLICAR EM RUN, NA MESMA JANELA NA PARTE SUPERIOR, OU CTRL + R
+################################################################################################################################
+
+### PASSO 1 - Instale os pacotes necessários clicando RUN ou CTRL + R na linha desejada
+install.packages("bibliometrix")
+install.packages("tidygraph")
+install.packages("ggraph")
+install.packages("sparkline")
+
+### PASSO 2 - Carregue os pacotes necessários clicando RUN ou CTRL + R na linha desejada
+library(bibliometrix)
+library(dplyr)
+library(tidyverse)
+library(stringr)
+library(tidygraph)
+library(ggraph)
+library(sparkline)
+
+### PASSO 3 - Defina o diretório de trabalho informando a pasta onde foi salvo o arquivo enviado em anexo.
+# É aconselhável criar uma pasta específica onde você possa armazenar todos os arquivos referentes ao projeto
+setwd("INSIRA AQUI O DIRETÓRIO DE TRABALHO ONDE ESTÁ SALVO O ARQUIVO")
+
+# Conferindo o diretório de trabalho
+getwd()
+
+#######################################################
+
+### ABRINDO O BIBLIOSHINY
+biblioshiny()
+
+#######################################################
+
+### O bibliometrix irá abir em uma página da internet.
+
+### PASSO 1 - Clique na opção DATA, no canto superior esquerdo, e selecione LOAD DATA
+### PASSO 2 - Clique na opção IMPORT OR LOAD, no canto superior esquerdo, e selecione a opção LOAD BIBLIOMETRIX FILE(S)
+### PASSO 3 - Em seguida clique em BROWSE e selecione o arquivo RDS enviado em anexo junto com este script/tutorial. em seguida clique em START
+### PASSO 4 - Pronto. Os dados irão aparecer na tela e você pode explorar as opções de visualização de dados nos links que aparecerão na coluna do lado direito da tela.
